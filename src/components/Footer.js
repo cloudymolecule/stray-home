@@ -3,8 +3,8 @@ import '../styles/Footer.css'
 
 function Footer() {
     return (
-        <div>
-            FOOTER
+        <div className='footer'>
+            Copyright © 2021 Dario Carlino
         </div>
     )
 }
