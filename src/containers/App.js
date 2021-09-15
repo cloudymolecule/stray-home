@@ -11,7 +11,12 @@ function App() {
     <Router>
       <Nav />
       <Switch>
-        <Route path='/about' exact component={About} />
+        <Route path='/' exact component={Home} />
+        <Route path='/cat-adoption' exact component={About} />
+        <Route path='/dog-adoption' exact component={About} />
+        <Route path='/rehome' exact component={About} />
+        <Route path='/shelters' exact component={About} />
+        <Route path='/account' exact component={About} />
       </Switch>
       <Footer />
     </Router>
